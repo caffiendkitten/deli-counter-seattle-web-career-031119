@@ -23,11 +23,10 @@ def take_a_number(katz_deli, string)
   else
     katz_deli << string
     puts "Welcome, #{string}. You are number #{katz_deli.size} in line."
+  end
 end
-  #puts katz_deli
 
 
-end
 
 line(katz_deli)
 take_a_number(katz_deli, "sasha")
