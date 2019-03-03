@@ -20,7 +20,7 @@ def take_a_number(katz_deli, string)
   if katz_deli.size == 0
     katz_deli << string
     puts "Welcome, #{string}. You are number 1 in line."
-  else 
+  else
     katz_deli << string
     puts "Welcome, #{string}. You are number #{katz_deli.size} in line."
 end
