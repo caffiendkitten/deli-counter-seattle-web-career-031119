@@ -1,4 +1,3 @@
-
 katz_deli = []
 
 def line(katz_deli)
@@ -17,8 +16,12 @@ def line(katz_deli)
 end
 
 def take_a_number(katz_deli, string)
-  line = []
+  katz_deli << string
 
+  puts katz_deli
 
 
 end
+
+line(katz_deli)
+take_a_number(katz_deli, "sasha")
